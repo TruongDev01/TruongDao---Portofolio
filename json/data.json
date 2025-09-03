@@ -1,38 +1,64 @@
 {
   "Projects": [
     {
-      "show": true,
-      "title": "Invervyou AI",
+    "show": true,
+      "title": "Keeper app",
       "desc": [
-        "AI Based interview Preparation Website created to help fresh graduates and job seekers prepare for interviews and optimize their CV through AI-powered features. The website is built using Next.js, TypeScript, Tailwind CSS, Shadcn UI, Prisma, and MySQL (TiDB).",
-        "The website has a few features such as a dashboard for the user to see their interview preparation progress, a CV analysis and optimization feature, and a few AI-powered interview questions that can be answered by the user which will be analyzed by the AI to provide feedback. The analysis contains the answer analysis, the gesture analysis, and a material recommendation to improve the user's performance.",
-        "The website also has a token mechanism that allows the user to purchase tokens to access the AI-powered features. Integrated with Indonesian payment gateway (Midtrans) to allow users to purchase tokens easily."
+        "The Keeper App is a lightweight note-taking application inspired by Google Keep. It allows users to quickly create, view, and delete notes in a clean and minimal interface.",
+
+        "This project is designed as a practice application for modern web development, combining a Node.js backend with a Vite + React frontend."
       ],
       "year": "2025",
-      "preview": "https://www.intervyou.me",
+      "preview": "",
       "code": "",
-      "thumbnail": "/image/projects/web/intervyou/intervyou-thumbnail.jpg",
+      "thumbnail": "/image/projects/web/keeperapp/keeperapp-thumbnail.png",
       "images": [
-        "/image/projects/web/intervyou/intervyou-1.png",
-        "/image/projects/web/intervyou/intervyou-2.png",
-        "/image/projects/web/intervyou/intervyou-3.png",
-        "/image/projects/web/intervyou/intervyou-4.png",
-        "/image/projects/web/intervyou/intervyou-5.png"
+        "/image/projects/web/keeperapp/keeperapp-1.png",
+        "/image/projects/web/keeperapp/keeperapp-2.png"
       ],
       "tech": [
         "NextJS",
         "Typescript",
-        "Shadcn UI",
+        "HTML",
         "Tailwind CSS",
-        "Prisma",
-        "MySQL",
-        "Midtrans",
-        "Gemini API",
-        "GCP"
+        "CSS",
+        "Vite",
+        "React"
+        
       ], 
-      "slug": "intervyou",
-      "category": [1, 2]
+      "slug": "keeperapp",
+      "category": [1]
+    },
+    {
+    "show": true,
+      "title": "Dbank",
+      "desc": [
+        "DSurv is a demo decentralized application (dApp) that allows users to claim free testnet tokens through a faucet, check account balances, and transfer tokens using Principal IDs. It is designed for experimenting with token distribution and transactions, likely on the Internet Computer Protocol (ICP), before deploying on the mainnet."
+
+      ],
+      "year": "2025",
+      "preview": "",
+      "code": "",
+      "thumbnail": "/image/projects/web/dbank/dbank-thumbnail.jpg",
+      "images": [
+        "/image/projects/web/dbank/dbank-1.jpg",
+        "/image/projects/web/dbank/dbank-2.jpg"
+      ],
+      "tech": [
+        "NextJS",
+        "Typescript",
+        "HTML",
+        "Tailwind CSS",
+        "CSS",
+        "Vite",
+        "React",
+        "Web3"
+
+      ],
+      "slug": "dbank",
+      "category": [1]
     }
   ]
+  
 }
 

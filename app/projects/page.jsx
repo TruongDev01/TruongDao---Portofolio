@@ -6,9 +6,9 @@ import Button from "@/components/Button";
 import Image from "next/image";
 
 // images
-import Intervyou1 from "@/public/image/projects/web/intervyou/intervyou-1.png";
-import Intervyou2 from "@/public/image/projects/web/intervyou/intervyou-2.png";
-import Intervyou3 from "@/public/image/projects/web/intervyou/intervyou-3.png";
+import Intervyou1 from "@/public/image/projects/web/dbank/dbank-1.jpg";
+import Intervyou2 from "@/public/image/projects/web/dbank/dbank-2.jpg";
+import Intervyou3 from "@/public/image/projects/web/dbank/dbank-3.jpg";
 import ProjectAll from "@/public/image/projects.png";
 
 import Hr from "@/components/Hr";
@@ -174,25 +174,18 @@ export default function Page() {
 							type: "spring",
 						}}>
 						<h2 className="text-2xl font-bold tracking-wider mb-3">
-							Intervyou AI
+							Dbank
 						</h2>
 						<p className="text-gray-600 text-justify title text-lg">
-							AI Based interview Preparation Website created to help fresh
-							graduates and job seekers prepare for interviews and optimize
-							their CV through AI-powered features. The website is built using
-							Next.js, TypeScript, Tailwind CSS, Shadcn UI, Prisma, and MySQL
-							(TiDB). This website can comprehensively analyze the user&apos;s
-							interview performance by providing a analysis of the user&apos;s
-							answer, gesture, and material recommendation to improve the user&apos;s
-							interview skills.
+							DSurv is a demo decentralized application (dApp) that allows users to claim free testnet tokens through a faucet, check account balances, and transfer tokens using Principal IDs. It is designed for experimenting with token distribution and transactions, likely on the Internet Computer Protocol (ICP), before deploying on the mainnet.
 						</p>{" "}
 						<div className="mt-3">
 							<Button variation="primary">
-								<Link href="projects/intervyou">More</Link>
+								<Link href="projects/dbank">More</Link>
 							</Button>
 							<Button variation="secondary">
 								<a
-									href="https://www.intervyou.me"
+									href=""
 									target="_blank"
 									rel="noopener noreferrer">
 									Preview
