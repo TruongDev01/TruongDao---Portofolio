@@ -3,6 +3,7 @@ const withBundleAnalyzer = require("@next/bundle-analyzer")({
 });
 module.exports = withBundleAnalyzer({
 	// your Next.js configuration
+	basePath: '/TruongDao---Portofolio', // Thêm basePath tại đây
 	images: {
 		remotePatterns: [
 			{
