@@ -16,8 +16,7 @@
     "lint": "next lint",
     "generate-sitemap": "node generate-sitemap.js",
     "pages:build": "npx @cloudflare/next-on-pages",
-    "preview": "npm run pages:build && wrangler pages dev",
-    "deploy": "npm run build && gh-pages -d .next"
+    "preview": "npm run pages:build && wrangler pages dev"
   },
   "dependencies": {
     "@fortawesome/fontawesome-svg-core": "^6.7.2",
